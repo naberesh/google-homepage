@@ -1,0 +1,108 @@
+body {
+max-width: 600px;
+max-height: 700px;
+background-color: white;
+font font-family: arial, sans serif;
+}
+.img {
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+.subtext {
+  position: relative;
+  top: -120px;
+  left: 700px;
+  color: #4285f4;
+}
+textarea {
+  resize: none;
+  width: 550px;
+  position: relative;
+  top: -90px;
+  left: 350px;
+}
+.p {
+  color: #222;
+  position: relative;
+  top: -400px;
+  left: 950px;
+}
+.pp {
+  color: #222;
+  position: relative;
+  top: -400px;
+  left: 965px;
+}
+a {
+  text-decoration: none;
+}
+.button1 {
+  position: relative;
+  top: -90px;
+  left: 480px;
+  max-height: 173px;
+
+}
+.button2 {
+  position: relative;
+  top: -125px;
+  left: 630px;
+width: 50px;
+  height: 100px;
+}
+input {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 40px;
+}
+li {
+    display: inline;
+    color: #666;
+}
+ul {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.right {
+display: block;
+float: right;
+margin-left: 5px;
+padding-right: 20px;
+padding-top: 10px;
+}
+.left {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.b1 {
+  background: #f2f2f2;
+  color: #757575;
+box-shadow: 0 0 1px;
+}
+
+
+
+
+
+.sprite {
+  width:30px;
+  height:30px;
+  background-image: url(images/sprite.png);
+  background-position: 120px 210px;
+  border: 1px solid black;
+  float: left;
+  z-index: 100;
+}
